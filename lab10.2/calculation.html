@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/calculation.css">
+    <link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
+    <title>Фитнес-математика</title>
+</head>
+<body bgcolor="#CCFCB4" background="img/bg.jpg">
+<header>
+    <ul>
+        <li><a href="index.html"><img src="img/emblem.png"></a></li>
+        <li><a id="1" href="workout.html">Тренировки для супергероев</a></li>
+        <li><a id="2" href="food.html">Полезные вкусняшки</a></li>
+        <li><a id="3" class="active"  href="calculation.html">Фитнес-математика</a></li>
+    </ul>
+</header>
+<div class="polaroid"> <img align="right" src="img/run.jpg"></div>
+<div class="table">
+    <h3>Калькулятор калорий</h3>
+    <table class="caloria">
+        <tr>
+            <th><p><label><input id="male" type="radio" name="sex" required>Парень
+            </label>
+            <th><label><input id="female" type="radio" name="sex" required>Девушка
+            </label></th>
+        </tr>
+         <tr>
+             <th><p><label>Возраст</label></th>
+             <th><input type="number" id="age" value="" placeholder="Возраст" min="0" max="100" required></th>
+        </tr>
+        <tr>
+            <th><p><label>Рост</label></th>
+            <th><input type="number" id="height" value="" placeholder="Рост" min="100" max="250" required></th>
+        </tr>
+        <tr>
+            <th><p><label>Вес</label></th>
+            <th><input type="number" id="weight" value="" placeholder="Вес" min="20" max="150" required></th>
+        </tr>
+        <tr>
+            <th>
+           <button onclick="raschitat();">Рассчитать калорийность</button>
+            </th>
+        </tr>
+    </table>
+<label id="calor"></label></th>
+</div>
+<div class="table">
+    <h3>Калькулятор идеального веса</h3>
+    <table class="caloria">
+        <tr>
+            <th><p><label><input id="male1" type="radio" name="sex1" required>Парень
+            </label>
+            <th><label><input id="female1" type="radio" name="sex1" required>Девушка
+            </label></th>
+        </tr>
+        <tr>
+            <th><p><label>Рост</label></th>
+            <th><input type="number" id="height1" value="" placeholder="Рост" min="100" max="250" required></th>
+        </tr>
+        <tr>
+        <tr>
+            <th>
+                <button onclick="idealW();">Рассчитать идеальный вес</button>
+            </th>
+        </tr>
+    </table>
+    <label id="ideal"></label></th>
+</div>
+
+
+<footer>
+    Created by &copy; <a class="email" href="mailto:mari.pestrak@mail.ru">mari.pestrak@mail.ru</a>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/calculation.js"></script>
+</body>
+</html>

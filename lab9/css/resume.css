@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-size: 100%;
+}
+header {
+    position: fixed;
+    background: black;
+    color:white;
+    width: 100%;
+}
+
+header ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+header li {
+    float: left;
+}
+header li a {
+    display: inline-grid;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+header .active {
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    position: relative;
+    color: black;
+    display: inline-block;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 3em;
+    padding: 11px 60px;
+    margin: 0;
+    line-height: 1;
+}
+.polaroid {
+    position: relative;
+    width: 220px;
+}
+
+.polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+}
+article{
+    text-align: left;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: bisque;
+    opacity: revert;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color:white;
+}

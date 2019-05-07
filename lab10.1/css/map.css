@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-size: 100%;
+}
+header ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFE4E1;
+}
+
+header li {
+    float: left;
+    background-color: #CD5C5C;
+}
+header li a {
+    display: inline-grid;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color:white;
+}

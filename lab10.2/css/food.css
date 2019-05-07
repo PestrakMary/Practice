@@ -1,0 +1,90 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-size: 100%;
+}
+header {
+    background: black;
+    color:white;
+    width: 100%;
+    position: relative;
+}
+
+header ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+header li {
+    float: left;
+    position: relative;
+}
+header li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color:white;
+}
+.email{
+    color: white;
+}
+h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.image {
+    width: 300px;
+    margin: 50px auto 0;
+    position: relative;
+    border: 6px solid white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.image img {
+    max-width: 100%;
+    display: block;
+}
+.image:before, .image:after {
+    content: "";
+    width: 300px;
+    height: 281px;
+    position: absolute;
+    z-index: -1;
+    border: 6px solid white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.image:before {
+    background: #F5CEC6;
+    top: 0px;
+    left: -10px;
+    transform: rotate(-5deg);
+}
+.image:after {
+    background: #DCB8B2;
+    top: 5px;
+    left: 0px;
+    transform: rotate(4deg);
+}

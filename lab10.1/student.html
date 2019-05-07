@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/student.css">
+    <title>Анкета</title>
+</head>
+<body background="img/bg.jpg" bgcolor="white">
+<header>
+    <ul>
+        <li><a id="1" href="student.html">Анкета</a></li>
+        <li><a id="2" href="table.html">Падежи</a></li>
+        <li><a id="3" href="map.html">Солнечная система</a></li>
+    </ul>
+</header>
+<h1>Анкета</h1>
+<form method="get">
+    <table class="anketa">
+        <tr>
+            <th><label>Фамилия</label></th>
+            <th><input type="text" name="surname" required></th>
+        </tr>
+        <tr>
+            <th><label>Имя</label></th>
+            <th><input type="text" name="name" required></th>
+        </tr>
+        <tr>
+            <th><label>Email</label></th>
+            <th><input type="email" name="email" required></th>
+        </tr>
+        <tr>
+            <th><label>Выбрать фото</label></th>
+            <th><input type="file"></th>
+        </tr>
+        <tr>
+            <th><label>По какой специальности вы обучались?</label></th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th><label>Какой титул вы получили?</label></th>
+            <th><select>
+                <option>--</option>
+                <option>Магистр</option>
+                <option>Бакалавр</option>
+                <option>Инженер</option>
+            </select></th>
+        </tr>
+        <tr>
+            <th><label>Сколько лет длилось обучение? </label></th>
+            <th><p><label><input type="radio" name="edu">4 года
+            </label>
+            <th><label><input type="radio" name="edu">5 лет
+            </label></th>
+        </tr>
+        <tr>
+            <th><label>Вы работали в период обучения? </label></th>
+            <th><p><label><input type="radio" name="ed">да
+            </label>
+            <th><label><input type="radio" name="ed">нет
+            </label></th>
+        </tr>
+    </table>
+    <input type="checkbox" required>
+    <label class="control">Я согласен с условиями обработки личной информации</label>
+    <p><label class="control">
+        Подтвердить отправку формы?
+        <table>
+            <th>
+            <td>
+                <button type="submit"><img src="img/ok.png"/></button>
+            </td>
+            <td></td>
+            <td>
+                <button type="reset"><img src="img/cancel.png"/></button>
+            </td>
+            </th>
+        </table>
+    </label>
+</form>
+<footer>
+    Created by &copy; mari.pestrak.99@mail.ru
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>
