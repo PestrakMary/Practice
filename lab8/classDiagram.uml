@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab8</OriginalElement>
+  <nodes>
+    <node x="617.0" y="443.0">lab8.MyFrame</node>
+    <node x="475.0" y="0.0">lab8.Observable</node>
+    <node x="0.0" y="762.0">lab8.Main</node>
+    <node x="225.0" y="762.0">lab8.GameOverException</node>
+    <node x="0.0" y="102.0">lab8.Fish</node>
+    <node x="476.0226876090751" y="211.45200698080276">lab8.Controller</node>
+    <node x="13.5" y="0.0">lab8.Observer</node>
+    <node x="0.0" y="443.0">lab8.Shark</node>
+    <node x="255.0" y="443.0">lab8.Canvas</node>
+    <node x="243.0" y="0.0">lab8.GamePlay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab8.Controller" target="lab8.Observable">
+      <point x="0.0" y="-93.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="lab8.Fish" target="lab8.Observer">
+      <point x="0.0" y="-148.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.977815699658703" x="420.0000000000001" y="429.5" />
+  <SelectedNodes>
+    <node>lab8.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
