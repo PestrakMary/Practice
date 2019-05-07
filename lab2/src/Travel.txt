@@ -1,0 +1,18 @@
+flag_belarus.png Замкі Беларусі
+60$
+flag_russia.png Золотое кольцо России
+160$
+flag_usa.png Большое яблоко. Желтые такси
+500$
+flag_great_britain.png London is the capital of Great Britain
+230$
+flag_ukraine.png Припять - город-призрак.
+35$
+flag_poland.png Из истории Речи Посполитой
+100$
+flag_germany.png Выходные в Баварии
+180$
+flag_turkey.png Чарующий Восток. По местам жизни Великой Хюррем.
+250$
+flag_france.png Париж - город любви.
+230$

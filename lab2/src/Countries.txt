@@ -1,0 +1,9 @@
+Беларусь Минск flag_belarus.png
+Россия Москва flag_russia.png
+США Вашингтон flag_usa.png
+Великобритания Лондон flag_great_britain.png
+Украина Киев flag_ukraine.png
+Польша Варшава flag_poland.png
+Германия Берлин flag_germany.png
+Турция Анкара flag_turkey.png
+Франция Париж flag_france.png
