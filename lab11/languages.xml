@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+	<language year="1983" extension =".cpp">
+		<name>C++</name>
+		<author>Bjarne Stroustrup</author>
+		<words>63</words>
+	</language>
+	<language year="1995" extension =".java">
+		<name>Java</name>
+		<author>James Gosling</author>
+		<words>50</words>
+	</language>
+	<language year="1991" extension =".py">
+		<name>Python</name>
+		<author>Guido van Rossum</author>
+		<words>30</words>
+	</language>
+	<language year="1970" extension =".pas">
+		<name>Pascal</name>
+		<author>Niklaus Emil Wirth</author>
+		<words>54</words>
+	</language>
+	<language year="2018" extension =".mew">
+		<name>Mew-Mew</name>
+		<author>Cat Flaffy</author>
+		<words>1</words>
+	</language>
+</languages>
+
